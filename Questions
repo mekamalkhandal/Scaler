@@ -1,0 +1,16 @@
+You wrote some code to help you cook a gorgeous lasagna from your favorite cookbook. Now, you want to find the total number of minutes you've been cooking for the sum of your preparation time and the time the lasagna has already spent baking in the oven. The preparation time of one layer is 2 minutes. Given the number of layers added to the lasagna and the number of minutes the lasagna has been baking in the oven, find the total elapsed cooking time (prep + bake) in minutes.
+
+
+Approach 1:
+1.take two inputs from user as layer and baked time completed
+2.initialize a varible name prep = layers * laytime
+3.now add baked time and prep
+
+----------------------------------------------------------
+        Scanner sc= new Scanner(System.in);
+        int layers = sc.nextInt();
+        int time = sc.nextInt();
+        int laytime = 2;
+        int prep = layers * laytime;
+        System.out.println(time + prep);
+-------------------------------------------------------------
